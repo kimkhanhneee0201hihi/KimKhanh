@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.child 
+		{
+
+		}
+		.container .child
+		{
+
+		}
+		div.child-2{}
+
+		div, ul{}
+
+		.container > .child {}
+
+		.child + p {}
+
+		p ~ ul {}
+
+		p[title ~= dolor]{
+
+		}
+
+		div[class="child-of-child"]{
+
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="child child-2">
+			<div class="child-of-child"></div>
+		</div>
+		<div class="child"></div>
+		<div class="child"></div>
+		<p title="Lorem ipsum dolor sit">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Iusto eum necessitatibus asperiores voluptas velit, odio assumenda. Ducimus ipsam dicta sapiente, esse magnam repellat explicabo vitae nesciunt labore fuga obcaecati libero?</p>
+		<p>Something....</p>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<ul class="hi">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+</body>
+</html>
